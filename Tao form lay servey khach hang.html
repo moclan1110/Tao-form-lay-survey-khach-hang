@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form lấy survey khách hàng</title>
+</head>
+<body>
+    <form>
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <p><strong>What is your age range?</strong></p>
+    <select style="width:500px">
+        <option value="age">18-24</option>
+        <option value="age">25-34</option>
+        <option value="age">35-50</option>
+        <option value="age">50+</option>
+    </select>
+    <p><strong>What is your yearly income range?</strong></p>
+    <select style="width:500px">
+        <option value="money">$0-$25,000</option>
+        <option value="age">$25,001-$50,000</option>
+        <option value="age">$50,001-$100,000</option>
+        <option value="age">$100,000+</option>
+    </select>
+    <p><strong>Gender Identity</strong></p>
+        <input type="radio" name="gender">Male</br>
+        <input type="radio" name="gender">Female</br>
+        <input type="radio" name="gender">Nonbinary</br>
+        <input type="radio" name="gender">Other<br/>
+       <input type="text" name="gender">
+    <p><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong></p>
+        <input type="checkbox" name="product">Product 1<br/>
+        <input type="checkbox" name="product">Product 2<br/>
+        <input type="checkbox" name="product">Product 3
+     <p><strong>How often would you use our new product?</strong></p>
+        <input type="radio" name="frequency">Daily</br>
+        <input type="radio" name="frequency">Weekly</br>
+        <input type="radio" name="frequency">Mothly
+    <p><strong>What would you pay for the new product?</strong></p>
+        <table>
+            <tr>
+                <td>$</td>
+                <td><input type="text" name="a" style="width:70px"></td>
+                <td>.</td>
+                <td><input type="text" name="a" style="width:10px"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Dollars</td>
+                <td></td>
+                <td>Cents</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
